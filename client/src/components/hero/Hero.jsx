@@ -3,7 +3,6 @@ import Container from '../layout/Container';
 import Badge from '../common/Badge';
 import HeroButtons from './HeroButtons';
 import HeroStatusCard from './HeroStatusCard';
-import TrustedTech from './TrustedTech';
 import EmphasisText from '../ui/EmphasisText';
 import { site } from '../../data/site';
 
@@ -12,13 +11,13 @@ const HEADLINE_MUTED_INDEXES = [1, 4];
 
 /**
  * Home page hero: status badge, headline with alternating emphasis,
- * CTA buttons, the live-stats side panel, and the trusted-tech strip.
+ * CTA buttons, and the live-stats side panel.
  */
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-noise">
       <div className="pointer-events-none absolute inset-x-0 top-0 h-[420px] bg-gradient-to-b from-[var(--color-surface)]/40 to-transparent" />
-      <Container className="relative pt-16 pb-4 sm:pt-24">
+      <Container className="relative pt-16 pb-24 sm:pt-24 sm:pb-32">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.2fr_1fr] lg:items-start">
           <div>
             <motion.div
@@ -62,8 +61,6 @@ export default function Hero() {
             <HeroStatusCard />
           </div>
         </div>
-
-        <TrustedTech />
       </Container>
     </section>
   );

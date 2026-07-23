@@ -32,11 +32,3 @@ export const heroStats = {
     { label: 'Uptime Goal', value: '99%' },
   ],
 };
-
-export const trustedTechnologies = [
-  'React.js',
-  'Node.js',
-  'TypeScript',
-  'PostgreSQL',
-  'AWS Cloud',
-];
