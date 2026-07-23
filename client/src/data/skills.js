@@ -42,4 +42,4 @@ export const databases = {
   ],
 };
 
-export const currentlyExploring = ['WEBGL', 'RUST', 'LLMS'];
+export const currentlyExploring = ['SQLITE', 'DEV-OPS', 'LLMS'];
