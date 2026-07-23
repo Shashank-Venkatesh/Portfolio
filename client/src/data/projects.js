@@ -14,8 +14,9 @@ export const projects = [
       'A high-performance LLM chat interface built to explore scalable file structure, modular code organisation, and third-party API integration end to end.',
     technologies: ['Node.js', 'Express', 'MongoDB', 'Gemini API', 'Stripe API'],
     image: quickgptThumb,
-    github: 'https://quick-gptz.vercel.app/',
+    github: 'https://github.com/Shashank-Venkatesh',
     live: '',
+    featured: true,
   },
   {
     slug: 'synctroop',
@@ -25,8 +26,9 @@ export const projects = [
       'A productivity-focused task and focus-timer app blending a polished Pomodoro workflow with live rooms, task ownership, and real-time chat.',
     technologies: ['MERN', 'Socket.io', 'JWT', 'Tailwind CSS'],
     image: syncTroopThumb,
-    github: 'https://synctroop.vercel.app/',
+    github: 'https://github.com/Shashank-Venkatesh',
     live: '',
+    featured: true,
   },
 ];
 
